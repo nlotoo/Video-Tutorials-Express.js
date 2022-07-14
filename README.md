@@ -1,10 +1,10 @@
 1.	Express.js Retake Exam – Video Tutorials
-•	Exam Rules:
-•	You have 4 hours from 09:00 to 13:00
-•	You are provided with HTML & CSS resources, which you can modify.
-•	Use Express.js as a back-end framework
-•	Use MongoDB as a database with mongoose
-•	You can use whatever view engine you like (Handlebars, EJS, Pug etc.…)
+-	Exam Rules:
+-	You have 4 hours from 09:00 to 13:00
+-	You are provided with HTML & CSS resources, which you can modify.
+-	Use Express.js as a back-end framework
+-	Use MongoDB as a database with mongoose
+-	You can use whatever view engine you like (Handlebars, EJS, Pug etc.…)
 2.	Application Overview
 Get familiar with the provided HTML & CSS and create an application for video tutorials, courses and course lectures.
 3.	Functional Requirements
@@ -16,16 +16,16 @@ The application should provide Users (logged in) with the functionality to view 
 Database Models (10 Pts)
 The Database of the Tutorials application needs to support 2 entities
 User
-•	Username - string (required), unique
-•	Password - string (required)
-•	Enrolled Courses - a collection of Courses 
+-	Username - string (required), unique
+-	Password - string (required)
+-	Enrolled Courses - a collection of Courses 
 Course
-•	Title - string (required), unique
-•	Description - string (required), max length of 50 symbols,
-•	Image Url - string (required),
-•	Is Public - boolean, default - false,
-•	Created at – Date or String, required
-•	Users Enrolled - a collection of Users
+-	Title - string (required), unique
+-	Description - string (required), max length of 50 symbols,
+-	Image Url - string (required),
+-	Is Public - boolean, default - false,
+-	Created at – Date or String, required
+-	Users Enrolled - a collection of Users
 Implement the entities with the correct datatypes.
 Application Pages (70 Pts)
 Guest Pages (15 Pts)
@@ -69,29 +69,29 @@ All form fields should be filled with the corresponding information of the selec
  
 Security Requirements (10 Pts)
 The Security Requirements are mainly access requirements. Configurations about which users can access specific functionalities and pages.
-•	Guest (not logged in) users can access Home page and functionality.
-•	Guest (not logged in) users can access Login page and functionality.
-•	Guest (not logged in) users can access Register page and functionality.
-•	Users (logged in) can access Home page (Listed all Courses)page and functionality.
-•	Users (logged in) can access Course Details page and functionality.
-o	Users (not course creator) can Enroll once for the course
-o	Users (course creator) can Edit and Delete the current course
-•	Users (logged in) can access Create Course page and functionality.
-•	Users (logged in) can access Logout functionality.
+-	Guest (not logged in) users can access Home page and functionality.
+-	Guest (not logged in) users can access Login page and functionality.
+-	Guest (not logged in) users can access Register page and functionality.
+-	Users (logged in) can access Home page (Listed all Courses)page and functionality.
+-	Users (logged in) can access Course Details page and functionality.
+-	Users (not course creator) can Enroll once for the course
+- Users (course creator) can Edit and Delete the current course
+-	Users (logged in) can access Create Course page and functionality.
+-	Users (logged in) can access Logout functionality.
 Validation and Error Handling (10 Pts)
 The application should notify the users about result of their actions.
 Login / Register
 You should make the following validations:
-•	The username should be at least 5 characters long and should consist only english letters and digits
-•	The password should be at least 5 characters long and should consist only english letters and digits
-•	The repeat password should be equal to the password
+-	The username should be at least 5 characters long and should consist only english letters and digits
+-	The password should be at least 5 characters long and should consist only english letters and digits
+-	The repeat password should be equal to the password
  
  
 Course
 You should make the following validations while creating or editing a course:
-•	The title should be at least 4 characters
-•	The description should be at least 20 characters long
-•	The imageUrl should be starts with http or https
+-	The title should be at least 4 characters
+-	The description should be at least 20 characters long
+-	The imageUrl should be starts with http or https
  
 
 
