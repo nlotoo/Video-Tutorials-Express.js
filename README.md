@@ -1,8 +1,7 @@
 1.	Express.js Retake Exam – Video Tutorials
 •	Exam Rules:
 •	You have 4 hours from 09:00 to 13:00
-•	When you are ready, delete the node_modules folder, make sure all dependencies are listed in the package.json file and submit your archived project at: SoftUni Judge
-•	You are provided with HTML & CSS resources, which you can modify 
+•	You are provided with HTML & CSS resources, which you can modify.
 •	Use Express.js as a back-end framework
 •	Use MongoDB as a database with mongoose
 •	You can use whatever view engine you like (Handlebars, EJS, Pug etc.…)
@@ -93,10 +92,6 @@ You should make the following validations while creating or editing a course:
 •	The title should be at least 4 characters
 •	The description should be at least 20 characters long
 •	The imageUrl should be starts with http or https
- 
-
-* Bonus (10 Pts)
-Search in courses. Filter only the courses names that include the searched string (case-insensitive). 
  
 
 
